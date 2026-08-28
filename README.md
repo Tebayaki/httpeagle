@@ -7,7 +7,7 @@ A lightweight HTTP service for serving Eagle images. Built with Go.
 ### Get Item
 
 ```
-GET /api/items?id=<item_id>&thumbnail=true
+GET /api/item?id=<item_id>&thumbnail=true
 ```
 
 **Parameters:**
@@ -16,7 +16,7 @@ GET /api/items?id=<item_id>&thumbnail=true
 
 **Examples:**
 ```bash
-curl "http://localhost:41596/api/items?id=MTCQADG5S1BFL"
+curl "http://localhost:41596/api/item?id=MTCQADG5S1BFL"
 ```
 
 ## Deployment with Docker

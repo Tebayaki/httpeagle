@@ -26,7 +26,7 @@ func main() {
 		log.Fatalf("STORAGE_DIR: `%s` not found", itemsDir)
 	}
 
-	http.HandleFunc("/api/items", serveItem)
+	http.HandleFunc("/api/item", serveItem)
 
 	http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusOK)
